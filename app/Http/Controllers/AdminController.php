@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     public function Admindashboard(){
-        return view('admin.dashboard');
+        return redirect()->route('category.list');
     }
 }
